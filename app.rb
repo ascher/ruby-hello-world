@@ -14,7 +14,7 @@ configure do
   puts "Run app..."
 
   while !self.connect_to_database
-    puts "Connecting to database...\n"
+    puts "Connecting to database...3..2..1\n"
     sleep 0.1
   end
   puts "Connected to database"
